@@ -28,6 +28,7 @@ public class EldoriaRPG implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
         ModItems.initialize();
+        ModCreativeTabs.initialize();
 	}
 
 	public static ResourceLocation id(String path) {
